@@ -1,5 +1,5 @@
 # JackWeiSlider
-这是一个jQuery插件，简单易用，自持自定义样式的滑动条（Slider）。
+这是一个jQuery滑动条（Slider）插件，简单易用，自持自定义样式。
 
 ### 1、函数（Method）
 
