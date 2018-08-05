@@ -19,7 +19,7 @@
 设置开始拖动事件监听。
 
 #### setOnDragCallback(callback):
-设置拖动事件监听。
+设置拖动事件监听，返回当前进度比例。
 
 #### setOnStopDragCallback(callback):
 设置停止拖动事件监听。
