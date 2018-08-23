@@ -56,3 +56,6 @@ $('#sliderParent')
             console.log('stop');
         });
 ```
+### 3、GitHub地址
+
+https://github.com/wnn1302/JackWeiSlider
