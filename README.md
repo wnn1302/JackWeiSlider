@@ -60,6 +60,6 @@ $('#sliderParent')
 
 https://github.com/wnn1302/JackWeiSlider
 
-### 3、注意事项:bug:
+### 4、注意事项:bug:
 
 先说个Sorry啦，由于本作者偷懒了没做移动端适配，如需要在移动端使用需要自行配置哦~:green_heart::green_heart::green_heart:
