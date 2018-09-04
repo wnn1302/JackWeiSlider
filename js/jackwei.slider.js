@@ -53,7 +53,7 @@
             //设置默认进度
             this.setProgress(settings.progress);
 
-            $(document).on('mousedown', '.jws-handle', function (e) {
+            $(this.element , document).on('mousedown', '.jws-handle', function (e) {
                 if (!that.isEnable) return;
 
                 that.isDrag = true;
@@ -63,7 +63,7 @@
                 e.preventDefault();
             });
 
-            $(document).mousemove(function (e) {
+            $(this.element , document).mousemove(function (e) {
                 if (!that.isDrag) return;
 
                 //阻止默认事件
@@ -77,7 +77,7 @@
                     that.onDragCallback(that.progress);
             });
 
-            $(document).mouseup(function (e) {
+            $(this.element , document).mouseup(function (e) {
                 if (!that.isDrag) return;
 
                 that.isDrag = false;
